@@ -1,4 +1,4 @@
-#DECODE BY : MUMIT ISLAM HIMU
+#DECODED BY : MUMIT ISLAM HIMU
 #GITHUB : https://github.com/MUMIT-404-CYBER
 #--------------------------------------------------------------------------#
 #
