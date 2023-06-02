@@ -365,37 +365,7 @@ def crack(idf,pwv):
 	loop+=1
 
 
-def approval():
-  os.system('clear')
-  banner()
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  try:
-    httpCaht = requests.get('https://blade404.blogspot.com/2023/05/approved.html').text
-    if id in httpCaht:
-      print("\33[1;32m[•] Your Token is Successfully Approved")
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      menu()
-      pass
-    else:
-      print("[•] Your Token : "+id)
-      print('\33[1;37m--------------------------------------------')
-      print("\33[1;32m[•] Important Note")
-      print('\33[1;37m--------------------------------------------')
-      print("\33[1;32m[•] 07  Days = 100TK")
-      print("\33[1;32m[•] 15  Days = 200TK")
-      print("\33[1;32m[•] 30  Days = 250TK")
-      print('\33[1;37m--------------------------------------------')
-      print('\033[1;31m[!] Free User Dont Come Inbox ')
-      print('\33[1;37m--------------------------------------------')
-      print ('If You Want to Buy This Tool Click Enter')
-      input('Click Enter To Buy This Tool')
-      tks = ('Hello%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Tooken%20:%20'+id);os.system('am start https://wa.me/+8801987178915?text='+tks),approval()
-      time.sleep(1)
-      approval()
-  except:
-    sys.exit()
+
 
 
 #-----------------------[ SYSTEM-CONTROL ]--------------------#
